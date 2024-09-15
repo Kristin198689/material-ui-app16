@@ -1,0 +1,33 @@
+/* Файл: src/styles/App.module.css */
+
+.appContainer {
+  background: linear-gradient(135deg, #ff4081, #2196f3);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navBar {
+  background-color: #5e28a9;
+}
+
+.title {
+  flex-grow: 1;
+}
+
+.welcomeText {
+  margin: 40px 0;
+}
+
+.openDialogButton {
+  background-color: #ff4081;
+  color: white;
+}
+
+.openDialogButton:hover {
+  background-color: #f50057;
+}
